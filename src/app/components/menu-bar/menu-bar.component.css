@@ -1,0 +1,13 @@
+.container__menu-bar {
+
+}
+
+.container__menu-bar > ul {
+  height: 100%;
+  display: flex;
+  column-gap: 69px;
+}
+
+.container__menu-bar > ul > li {
+  list-style: none;
+}

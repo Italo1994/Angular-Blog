@@ -1,7 +1,7 @@
 <div class="container__big-card">
   <div class="big-card__photo">
     <img
-      src="https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_FMjpg_UX1000_.jpg"
+      src="{{ photoCover }}"
       alt=""
       height="250px"
       width="100%"
@@ -9,12 +9,12 @@
     >
   </div>
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__description">
     <p>
       <a href="#">
-        O Angular está de cara nova, com muitas funcionalidades extras e performáticas que auxiliam no dia a dia dos desenvolvedores.
+        {{ cardDescription }}
       </a>
     </p>
   </div>

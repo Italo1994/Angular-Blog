@@ -1,5 +1,6 @@
 .container__menu-bar {
-
+  padding: 0px 0;
+  height: 100%;
 }
 
 .container__menu-bar > ul {
@@ -10,4 +11,5 @@
 
 .container__menu-bar > ul > li {
   list-style: none;
+  height: 100%;
 }

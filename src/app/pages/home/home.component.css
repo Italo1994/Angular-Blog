@@ -1,17 +1,23 @@
+
 .container__articles {
-  margin-top: 30px;
+  margin-top: 69px;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
-  column-gap: 50px;
+  column-gap: 69px;
+}
+
+.articles__main {
+  height: 100%;
 }
 
 .articles__others {
-
+  height: 100%;
 }
 
 header {
+  width: 100%;
   margin-top: 15px;
   display: flex;
   justify-content: center;

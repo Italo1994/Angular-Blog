@@ -1,14 +1,34 @@
-<header>
-  <app-menu-bar></app-menu-bar>
-</header>
-<app-menu-title></app-menu-title>
-<section class="container__articles">
-  <div class="articles__main">
-    <app-big-card></app-big-card>
-  </div>
-  <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-  </div>
-</section>
+<div class="container__home">
+  <header>
+    <app-menu-bar></app-menu-bar>
+  </header>
+  <section>
+    <app-menu-title></app-menu-title>
+  </section>
+  <section class="container__articles">
+    <div class="articles__main">
+      <app-big-card
+        photoCover="https://is1-ssl.mzstatic.com/image/thumb/ZypiNEdbU0wwCF0GMJ3zoA/1200x675mf.jpg"
+        cardTitle="Novo filme do Homem de Ferro anunciado"
+        cardDescription="A Marvel Studios anuncia o novo filme do Homem de Ferro. Com data de lançamento prevista para o início de 2024 a expectativa é de que o filme seja um sucesso de bilheteria."
+      >
+      </app-big-card>
+    </div>
+
+    <div class="articles__others">
+      <app-small-card
+        photoCover="https://i0.wp.com/blog.dsacademy.com.br/wp-content/uploads/2018/07/O-Que-e%CC%81-a-Tecnologia-Blockchain.png?fit=702%2C389&ssl=1"
+        cardTitle="Confira os lançamentos da Marvel para o mês de Novembro"
+        [borderRadius]="5"
+      ></app-small-card>
+      <app-small-card
+        photoCover="https://stoom.com.br/wp-content/uploads/2022/06/starlink-internet.jpg"
+        cardTitle="Wanda Vision estréia no Disney Plus no dia 20 de Outubro"
+      ></app-small-card>
+      <app-small-card
+        photoCover="https://marketing4ecommerce.net/wp-content/uploads/2021/07/FacebookMetaverso.jpg"
+        cardTitle="Wanda Vision estréia no Disney Plus no dia 20 de Outubro"
+      ></app-small-card>
+    </div>
+  </section>
+</div>

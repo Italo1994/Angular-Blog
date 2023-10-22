@@ -15,10 +15,3 @@
 .articles__others {
   height: 100%;
 }
-
-header {
-  width: 100%;
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-}
